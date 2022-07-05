@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Research | Pranav Khandelwal</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Pranav Khandelwal</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="index.html">Me</a></li>
+				<li class="active"><a href="research.html">Research</a></li>
+				<li><a href="publications.html">publications</a></li>
+				<li><a href="software.html">software</a></li>
+				<li><a href="backstage.html">backstage</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/prnvkhndlwl/" target="_blank"
+						class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+				<li><a href="https://twitter.com/prnvkhndlwl" target="_blank" class="icon brands alt fa-twitter"><span
+							class="label">Twitter</span></a></li>
+				<li><a href="https://github.com/prnvkhndlwl" target="_blank" class="icon brands alt fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Post -->
+			<section class="post">
+				<header class="major">
+					<h1>Motivation</h1>
+					<p>Motion is a bio-marker representing the <strong>mechanics, sensing, and interaction</strong> of the
+						organism in its environment</p>
+				</header>
+				<p>A lot can be known about the physical condition and behavioral state of an organism by quantifying how it moves.
+					For example, changes in the organism's morphology, behavior, and/or its environment can directly impact movement - a person
+					walking with the assist of a crutch compared to a person walking without it will result in different motion 
+					signals; running versus walking 
+					will lead to different movement patterns; walking on sand versus walking on hard floor will also result 
+					in different characteristics of the movement pattern. <br/>
+					Animals are no different and changes in their morphology, behavior, and/or environment is reflected
+					in their motion. <br/>
+					I am interested in understanding how do intrinsic (morphology | behavior) and extrinsic (environment) factors manifest
+					in the biomechanics of the organism. In turn, we can infer the physical condition and behavior of the organism
+					by analyzing the movement patterns of the organism.
+					<div class="image main"><img src="images/motivation_image.png" alt="" /></div>
+				</p>
+				<header>
+					<h2>approach</h2>
+					<p>Using consumer-grade equipment for high-resolution motion tracking</p>
+				</header>
+				<p>Modern cameras provide a cost-effective and versatile solution to capture motion and the behavioral
+					context in which it is performed.</br>
+					The animation below shows a combination of two GoPro cameras recording the takeoff phase of flying
+					lizards in the <a href="http://agumberainforest.org/" target="_blank">Agumbe rainforest</a>.
+					Behind the scenes Computer Vision wizadry allows markerless multi-point tracking of the body and
+					converting the pixel coordinates to real-world
+					position coordinates. Overall, by tracking features on the organism and in the environment, we can
+					quantify body pose, kinematics, and the
+					behavioral context of the organism while minimizing external perturbation.</p>
+				<div class="image main"><img src="images/tracking_takeoff.gif" alt="" /></div>
+				<p><span class="image left"><img src="images/cooling_GoPro.jpg" alt="" /></span>However, working with
+					consumer grade hardware is not straight forward and requires significant amouts of software and
+					hardware tinkering.
+					On the software side, one has to deal with temporal syncing of cameras, high lens distortion, and
+					camera calibration tailored to the specific use case. The hardware side can lead to quite unexpected
+					scenarios - for example -
+					dealing with overheating issues with the GoPro cameras where custom cooling solution was required to
+					keep the cameras running in the hot and humid forest environment. The image on the left shows the
+					camera rig with a cooling fan
+					powered by a power brick (constructed by Shankar CM). The power brick also allowed for extended
+					recording durations with the GoPro camera - the entire setup could be left running for more than 8
+					hours without the camera overheating
+					even at temperatures passing 35<sup>o</sup>C!</br>
+				<a href="https://gadgets360.com/science/features/agumbe-ncf-science-research-jugaad-jungle-drones-cameras-gopros-2301339"
+						target="_blank">Here's</a> a science feature that I wrote for an Indian news outlet NDTV Gadgets
+					talking about how everyday technology,
+					improvisation, and the right group of people can lead to some very cool science!
+				</p>
+				<!--
+				<header>
+					<h2>output</h2>
+					<p>High resolution markerless tracking in 3D</p>
+				</header>
+				<p>Below is the output of the markerless tracking from a single glide of the flying lizard in the motion capture arena. The seven 
+					cameras are color coded corresponding to the part of the glide that they are focussed on (left). The color purple 
+					corresponds to the takeoff phase of the glide, orange to the mid-glide phase, and red to the landing phase. On the 
+					right, is a close-up view of the flying lizard showing changes in its body posture, body orientation, and tail orientation
+					during the complete glide.
+				</p>
+				<div class="image main"><img src="images/glide5_1.gif" alt="" /></div>
+				-->
+			</section>
+
+			<h2>Research Highlights</h2>
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<h2>Free-flight aerodynamics of gliding</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/glide_tracking.gif" alt="" /></a>
+					<p>Flying lizards modulate their <strong>pitch and camber for efficient gliding</strong> in the
+						jungle</p>
+					<ul class="actions special">
+						<li><a href="https://www.nature.com/articles/s41598-022-05739-1" target="_blank"
+								class="button">Full Story</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2>Gliding through the jungle</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/through_jungle.gif" alt="" /></a>
+					<p>Flying lizards use a <strong>based path-planning strategy</strong> to navigate their spatially
+						cluttered
+						habitat. <a href="https://www.youtube.com/watch?v=flwVBG-2tbA&t=1s"
+							target="_blank"><i>Here's</i></a> a video summary of the findings.</p>
+					<ul class="actions special">
+						<li><a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2019.2888" target="_blank"
+								class="button">Full Story</a></li>
+					</ul>
+				</article>
+			</section>
+			
+			<div class="box alt">
+				<h2>Research coverage</h2>
+				<div class="row gtr-50 gtr-uniform">
+					<div class="col-4"><a
+							href="https://www.bnr.nl/podcast/wetenschap-vandaag/10466641/de-indrukwekkende-zweeftechniek-van-de-vliegende-draak?utm_medium=EchoBox&utm_campaign=EchoBoxSocial&utm_source=Twitter#Echobox=1643906027"
+							target="_blank" class="image fit"><img src="images/dutch_radio.png"
+								alt="Interview with the Dutch radio station BNR" /></a></div>
+					<div class="col-4"><a
+							href="https://journals.biologists.com/jeb/article/223/9/jeb225128/223795/Flying-lizards-plan-ahead-to-avoid-clutter"
+							target="_blank" class="image fit"><img src="images/outside_JEB.png" alt="" /></a></div>
+					<div class="col-4"><a href="https://endeavors.unc.edu/biomechanics-on-the-fly/" target="_blank"
+							class="image fit"><img src="images/endeavors_UNC.png" alt="" /></a></div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer id="footer">
+
+			<section class="split contact">
+				<section class="alt">
+					<h3>Address</h3>
+					<p>Max Planck Institute for Intelligent Systems<br />
+						Stuttgart, Germany</p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="mailto:pranav@is.mpg.de">pranav@is.mpg.de</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/prnvkhndlwl/" target="_blank"
+								class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://twitter.com/prnvkhndlwl" target="_blank"
+								class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/prnvkhndlwl" target="_blank"
+								class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; 2022 Pranav Khandelwal</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
